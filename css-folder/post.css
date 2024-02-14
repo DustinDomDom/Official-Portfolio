@@ -1,0 +1,26 @@
+.background-image-container{
+    max-width: 600px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+.date-post{
+    display: inline-block;
+    color: white;
+    background-color: #142850;
+
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 16px;
+
+    width: 65px;
+}
+
+.view-container{
+    color: #00A8CC;
+    font-size: 1em;
+}

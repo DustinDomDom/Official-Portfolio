@@ -1,0 +1,11 @@
+footer .social-media-container img{
+    filter: invert(100%)
+}
+
+footer .social-media-container a{
+    width: 2.5em;
+    padding: 0.5rem;
+    
+    border-radius: 100%;
+    background-color: #21243D;
+}

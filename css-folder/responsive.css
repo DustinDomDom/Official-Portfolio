@@ -1,0 +1,153 @@
+@media (width < 1400px){
+
+    main .tab-container .view-container{
+        display: none;
+    }
+
+    main .container,
+    main .tab-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .first-container,
+    .second-container,
+    .third-container,
+    .forth-container,
+    section .tab-container{
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+
+
+    h3{
+        font-size: 1.85em;
+        font-family: 400;
+        margin: auto 0;
+    
+        color: #21243D;
+    }
+
+
+
+}
+
+@media (width < 1200px){
+
+    header .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    header .right-side-header img{
+        width: 400px;
+        border-radius: 100%;
+    }
+
+    header .container .left-side-header{
+        max-width: 700px;
+    }
+
+    header .container button{
+        text-align: center;
+    }
+
+    main .tab-container .view-container{
+        display: none;
+    }
+
+    main .container,
+    main .tab-container{
+        padding: 1.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .left-side-container,
+    .right-side-container,
+    section .tab-container{
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    section .post-container .page-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+    }
+
+    footer,
+    footer h5{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    footer .social-media-container a{
+        width: 2em;
+    }
+
+    p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+
+    h1{
+        font-size: 2em;
+        line-height: 1.25em;
+        font-weight: 700;
+    }
+
+    h2{
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #21243D;
+    }
+
+    h3{
+        font-size: 1.5em;
+        font-weight: 400;
+        margin: auto 0;
+    }
+
+    h4{
+        font-size: 1.125em;
+        font-weight: 400;
+        margin: 0;
+    }
+
+    h5{
+        font-size: 0.5em;
+        font-weight: 400;
+    }
+}
+
+@media (width < 900px){
+
+    nav .container-logo{
+        display: none;
+    }
+
+    nav{
+        display: block;
+        justify-content: center;
+        align-items: end;
+    }
+
+    header .container .right-side-header{
+        display: none;
+    }
+
+}

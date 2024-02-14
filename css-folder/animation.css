@@ -1,0 +1,114 @@
+.animation-link {
+    text-decoration: none;
+    position: relative;
+}
+
+.animation-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+
+    transform: scaleX(0);
+    transform-origin: right;
+
+    transition: transform 250ms ease-in;
+    transition: -webkit-transform 100ms ease-in; 
+}
+
+.animation-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    -webkit-transform: scaleX(1); 
+}
+
+.resume-btn{
+    position: relative; 
+    z-index: 1;
+}
+
+.resume-btn::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ff3434;
+    z-index: -1;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: -webkit-transform 200ms ease-in; 
+}
+
+.resume-btn:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+    -webkit-transform: scaleX(1); 
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+}
+
+.left-side-header{
+    transition-delay: 300ms;
+}
+
+.recent-post-container:nth-child(1){
+    transition-delay: 300ms;
+}
+
+.recent-post-container:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.recent-post-container:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.recent-post-container:nth-child(4){
+    transition-delay: 300ms;
+}
+
+.page-container:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.page-container:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.social:nth-child(1){
+    transition-delay: 200ms;
+}
+
+.social:nth-child(2){
+    transition-delay: 300ms;
+}
+
+.social:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.social:nth-child(4){
+    transition-delay: 500ms;
+}
+
+.social:nth-child(5){
+    transition-delay: 600ms;
+}

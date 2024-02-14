@@ -1,0 +1,69 @@
+.container-logo{
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.image-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-links{
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.link a{
+    text-decoration: none;
+
+    font-weight: 600;
+    font-size: 1.25em;
+
+    padding: 0.25rem;
+    margin: auto;
+
+    color: black;
+}
+
+header .left-side-header{
+    max-width: 600px;
+}
+
+header .left-side-header h5{
+    line-height: auto;
+    font-size: 1.142857143rem;
+    font-weight: 400;
+}
+
+header .left-side-header button{
+    border: none;
+    border-radius: 2px;
+
+    background-color: #FF6464;
+    color: white;
+    padding: 1rem 1.25rem;
+
+    font-size: 1.428571429em;
+    cursor: pointer;
+}
+
+header .right-side-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.right-side-header img{
+    width: 450px;
+    border-radius: 100%;
+}
+
+

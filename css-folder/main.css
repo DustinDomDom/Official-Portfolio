@@ -1,0 +1,29 @@
+main{
+    background-color: EDF7FA;
+}
+
+.recent-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+
+    max-width: 1200px;
+    min-height: 700px;
+    margin: auto;
+    padding: 5rem 3rem;
+}
+
+.recent-post-container{
+    background-color: white;
+    padding: 1.25rem;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.date-and-theme{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
